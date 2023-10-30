@@ -1,0 +1,29 @@
+{
+    "name": "aayustho/query-index",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aayustho\\QueryIndex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abhi Adhitya Yustho",
+            "email": "abhiyustho@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.0",
+        "illuminate/container": "^8.0",
+        "illuminate/database": "^8.0",
+        "illuminate/events": "^8.0",
+        "jenssegers/mongodb": "^3.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aayustho\\QueryIndex\\QueryIndexServiceProvider"
+            ]
+        }
+    }
+}
